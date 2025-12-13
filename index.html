@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Wear | Clothing Store</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Segoe UI", Arial, sans-serif; }
+    body { background: #ffffff; color: #111; }
 
+    header {
+      padding: 20px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 { font-size: 22px; letter-spacing: 1px; }
+    header nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #111;
+      font-size: 14px;
+    }
+
+    .hero {
+      height: 70vh;
+      background: url('https://images.unsplash.com/photo-1520975682031-ae0f5cbb7f4d') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .hero h2 {
+      background: rgba(255,255,255,0.85);
+      padding: 20px 30px;
+      font-size: 32px;
+      max-width: 400px;
+    }
+
+    .section { padding: 40px 20px; }
+
+    .section h3 {
+      font-size: 22px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .category {
+      position: relative;
+      height: 260px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .category span {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      background: rgba(255,255,255,0.9);
+      padding: 8px 14px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .about p { max-width: 700px; line-height: 1.7; color: #444; }
+
+    .contact a {
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 12px 20px;
+      border: 1px solid #111;
+      text-decoration: none;
+      color: #111;
+      font-size: 14px;
+    }
+
+    footer {
+      border-top: 1px solid #eee;
+      padding: 20px;
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>URBAN WEAR</h1>
+  <nav>
+    <a href="#">Men</a>
+    <a href="#">Women</a>
+    <a href="#">Kids</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Everyday Fashion. Everyday Comfort.</h2>
+</section>
+
+<section class="section">
+  <h3>Collections</h3>
+  <div class="categories">
+    <div class="category" style="background-image:url('https://images.unsplash.com/photo-1516826957135-700dedea698c')">
+      <span>Men</span>
+    </div>
+    <div class="category" style="background-image:url('https://images.unsplash.com/photo-1520962917968-a9f6c62a87ac')">
+      <span>Women</span>
+    </div>
+    <div class="category" style="background-image:url('https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb')">
+      <span>Kids</span>
+    </div>
+  </div>
+</section>
+
+<section class="section about">
+  <h3>About Store</h3>
+  <p>
+    Urban Wear is a modern clothing store offering stylish and affordable fashion for men, women, and kids.
+    We focus on quality, comfort, and the latest trends for everyday wear.
+  </p>
+</section>
+
+<section class="section contact">
+  <h3>Visit Us</h3>
+  <a href="tel:+919999999999">Call</a>
+  <a href="https://wa.me/919999999999">WhatsApp</a>
+  <a href="https://maps.google.com" target="_blank">Google Maps</a>
+</section>
+
+<footer>
+  © 2025 Urban Wear. All rights reserved.
+</footer>
+
+</body>
+</html>
