@@ -26,17 +26,19 @@
 
     .hero {
       height: 70vh;
-      background: url('https://images.unsplash.com/photo-1520975682031-ae0f5cbb7f4d') center/cover no-repeat;
+      background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+        url('https://images.unsplash.com/photo-1445205170230-053b83016050') center/cover no-repeat;
       display: flex;
       align-items: center;
       padding: 40px;
     }
 
     .hero h2 {
-      background: rgba(255,255,255,0.85);
-      padding: 20px 30px;
-      font-size: 32px;
-      max-width: 400px;
+      background: rgba(255,255,255,0.95);
+      padding: 24px 32px;
+      font-size: 34px;
+      line-height: 1.3;
+      max-width: 420px;
     }
 
     .section { padding: 40px 20px; }
@@ -74,14 +76,18 @@
     .about p { max-width: 700px; line-height: 1.7; color: #444; }
 
     .contact a {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       margin-right: 10px;
       margin-top: 10px;
-      padding: 12px 20px;
+      padding: 14px 22px;
       border: 1px solid #111;
+      border-radius: 6px;
       text-decoration: none;
       color: #111;
-      font-size: 14px;
+      font-size: 15px;
+      font-weight: 500;
     }
 
     footer {
@@ -132,10 +138,10 @@
 </section>
 
 <section class="section contact">
-  <h3>Visit Us</h3>
-  <a href="tel:+91999996656">Call</a>
-  <a href="https://wa.me/919999999999">WhatsApp</a>
-  <a href="https://maps.google.com" target="_blank">Google Maps</a>
+  <h3>Contact & Location</h3>
+  <a href="tel:+919999999999">📞 Call Shop</a>
+  <a href="https://wa.me/919999999999">💬 Chat on WhatsApp</a>
+  <a href="https://maps.google.com" target="_blank">📍 Get Directions</a>
 </section>
 
 <footer>
