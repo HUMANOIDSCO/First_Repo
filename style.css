@@ -1,0 +1,118 @@
+/* css.html – SEO friendly external stylesheet */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+  }
+  
+  body {
+    background: #ffffff;
+    color: #111;
+  }
+  
+  /* Header */
+  .header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  
+  .header nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+  }
+  
+  /* Hero */
+  .hero {
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+      url("https://images.unsplash.com/photo-1445205170230-053b83016050") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .hero h2 {
+    background: rgba(255,255,255,0.95);
+    padding: 24px 32px;
+    font-size: 34px;
+    max-width: 420px;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 40px 20px;
+  }
+  
+  .section h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Categories */
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .category {
+    position: relative;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .category span {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: rgba(255,255,255,0.9);
+    padding: 8px 14px;
+    font-weight: bold;
+  }
+  
+  /* About */
+  .about p {
+    max-width: 700px;
+    line-height: 1.7;
+    color: #444;
+  }
+  
+  /* Contact */
+  .contact a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 14px 22px;
+    border: 1px solid #111;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+  }
+  
+  /* Footer */
+  .footer {
+    border-top: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+  }
+  

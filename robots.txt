@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://urbanwearrajkot.netlify.app/sitemap.xml
